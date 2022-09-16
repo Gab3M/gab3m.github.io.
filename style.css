@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    230deg,
+    rgba(51, 51, 51, 1) 0%,
+    rgba(232, 232, 232, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #f7f7f7;
+  margin: 45px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.image {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  border-radius: 100px;
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #f7f7f7;
+  color: #1c1c1c;
+}
+
+.projetos {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/007/420/585/large/dorje-bellbrook-db-destiny2-072.jpg?1506013560");
+  margin: 24px;
+  border-radius: 20px;
+  padding: 24px;
+  font-weight: 400;
+  list-style-type: none;
+  color: #f7f7f7;
+  line-height: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projetos ul {
+  font-size: 36px;
+  font-weight: 700;
+  list-style-type: none;
+  margin-right: 32px;
+}
+
+.itens {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.itens a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.dark .container {
+  background: #333439;
+  color: #f7f7f7;
+}
+
+.dark .tema button {
+  background: #333439;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+}
